@@ -1,0 +1,87 @@
+body{
+    font-family: 'Kalam', cursive;
+    background-image: url("chemcat.jpg");
+}
+.container{
+    height: 330px;
+    width: 1000px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    background: lightgreen;
+    padding: 50px;
+    border: 1px solid black;
+    box-shadow: 0 0 8px 3px white;
+}
+
+.title{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: darkgreen;
+}
+
+.question{
+    padding: 20px;
+    font-size: 22px;
+    background: darkgreen;
+    border-radius: 20px;
+    margin: 10px 0 10px 0;
+    color: white;
+}
+
+.option{
+    width: 470px;
+    display: inline-block;
+    padding: 10px 0 10px 15px;
+    vertical-align: middle;
+    background: green;
+    margin: 10px 0 10px 10px;
+    color: white;
+    border-radius: 20px;
+}
+.option:hover{
+    background: navy;
+    color: white;
+}
+.nxt-btn{
+    border: none;
+    outline: none;
+    background: gray;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    float: right;
+    margin: 10px;
+}
+
+.start-btn{
+    border: none;
+    outline: none;
+    background: gray;
+    width: 100px;
+    height: 25px;
+    border-radius: 20px;
+    float: left;
+    margin: 3px;
+}
+.nxt-btn:hover{
+    background: purple;
+    color: white;
+}
+
+.start-btn:hover{
+    background: purple;
+    color: white;
+}
+
+.result{
+    height: 100px;
+    text-align: center;
+    font-size: 75px;
+}
+.option input:checked .option{
+    background: navy;
+    color: black;
+}
